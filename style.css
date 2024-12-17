@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: 600px;
+    margin-top: 2px;
+    height: 670px;
+    position: absolute;
+}
+.open{
+  display: none !important;
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+.form-group input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
+
+
+.joueur2{
+    display: none;
+}
+
+.nmbr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
+}
+
+.inpte {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #8ef0cb;
+    margin: 5%;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.lable {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+}
+
+.inpt {
+    height: 40px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #8ef0cb;
+    margin: 2%;
+    border: none;
+    padding: 5px;
+}
+
+.labl {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+    width: 90%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.optio{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 40px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #8ef0cb;
+    margin: 3%;
+    border: none;
+    padding: 5px;
+}
+
+
+
+
+
+/* Styll dyal section */
+.section {
+    padding: 20px;
+    background-color: #ffffff; /* Loun abyad clean */
+    border: 1px solid #ccc; /* Contour dyal section mratab */
+    border-radius: 10px; /* Edges mldoura */
+    max-width: 1000px; 
+    margin-left: 390px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow pour modern look */
+    margin-top: 50px;
+  }
+  
+  /* Table propre */
+  table {
+    width: 100%; /* Ykhed l3ard kaml */
+    border-collapse: collapse; /* No spacing bin les cellules */
+    font-family: Arial, sans-serif; /* Font simple o professional */
+    font-size: 14px; /* Taille dyal texte mzyana */
+    color: #333; /* Loun texte 7choum */
+    border: 2px solid #007bff; /* Contour dyal tableau loun blue wad7 */
+  }
+  
+  /* Header dyal tableau */
+  thead th {
+    background-color: #007bff; /* Loun blue mzayen */
+    color: white; /* Texte abyad */
+    padding: 12px; /* Espace fi dakchi dyal header */
+    text-align: left; /* Texte aligné l'gauche */
+    border: 1px solid #0056b3; /* Lignes bin les cellules dyal header */
+  }
+  
+  /* Rows dyal tableau */
+  tbody tr {
+    border-bottom: 1px solid #ddd; /* Lignes baynin bin rows */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Background gris f les rows zouj */
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* Background abyad f rows fard */
+  }
+  
+  /* Cells dyal tableau */
+  td {
+    padding: 12px; /* Espace dakhel cellules */
+    text-align: left; /* Texte aligné l'gauche */
+    border: 1px solid #ccc; /* Lignes bin cellules */
+  }
+  
+  /* Hover dyal rows */
+  tbody tr:hover {
+    background-color: #e9ecef; /* Loun mzyan m3a hover */
+  }
+    
+
+
+  .add-button {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .add-button:hover {
+    background-color: #0056b3;
+  }
