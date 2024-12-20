@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,10 +44,18 @@
                       </li>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="clup.php" class="nav-link">
                       <i class="nav-icon fas fa-th"></i>
                       <p>
-                            Simple Link
+                           Ajouter clup
+                      </p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="nationality.php" class="nav-link">
+                      <i class="nav-icon fas fa-th"></i>
+                      <p>
+                            Ajouter Nationality
                       </p>
                     </a>
                   </li>
@@ -196,7 +203,7 @@
               echo '<td>'.$row['Defending'].'</td>';
               echo '<td>'.$row['Physical'].'</td>';
               echo '<td> <a href="delet.php?id='.$row['id'].'"> <button>Supprimer</button> </a> </td>';
-              echo '<td> <a href="indexe.php?id='.$row['id'].'"> <button>Modifier</button> </a> </td>';
+              echo '<td> <a href="ubdate.php?id='.$row['id'].'"> <button>Modifier</button> </a> </td>';
               echo '</tr>';
             } 
         ?>

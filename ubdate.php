@@ -40,7 +40,7 @@
 ?>
 
     <section class="form-container open" id="mmm">
-        <form action="indexe.php?id_new=<?php echo $id; ?>" method="POST">
+        <form action="ubdate.php?id_new=<?php echo $id; ?>" method="POST">
             <div class="form-group">
                 <h1 class="text"> Form De Modification De Joueurs </h1>
                 <label class="labl">Name</label>

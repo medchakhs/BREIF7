@@ -1,0 +1,346 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(image/Untitled-1.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    margin: 0;
+}
+
+.joeurs-statistique{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    gap: 4%;
+}
+
+.frome {
+    background-color: #383939;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 30%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.joueur2{
+    display: none;
+}
+
+.nmbr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
+    margin-left: 24px;
+    flex-wrap: wrap;
+}
+
+.inpte {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #8ef0cb;
+    margin: 5%;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.lable {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+}
+
+.inpt {
+    height: 30px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #8ef0cb;
+    margin: 3%;
+    border: none;
+    padding: 5px;
+}
+
+.labl {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+    width: 90%;
+}
+
+svg {
+    max-width: 90%;
+    height: auto;
+}
+.text{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 190%;
+}
+.btn{
+    background-color: #8ef0cb;
+    border: none;
+    color: rgba(87, 87, 87, 0.793);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 92%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn:hover{
+    background-color: #66ffed;
+    color: rgb(26, 26, 26);
+    transition: background-color 0.5s ease;
+}
+.optio{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 40px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #8ef0cb;
+    margin: 3%;
+    border: none;
+    padding: 5px;
+}
+
+.player{
+    display: flex; 
+    gap: 7%;
+    justify-content: center;
+}
+
+.playere{
+    display: flex; 
+    justify-content: space-around;
+}
+.players-container{
+display: flex; 
+flex-direction: column; 
+position: absolute; 
+top: 0; 
+width: 90%; 
+margin-left: 2%;
+}
+.gold:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    filter: drop-shadow(0 5px 15px rgba(96, 255, 239, 0.3));
+}
+.addd{
+    display: none;
+}
+.gold{
+    position: relative;
+    background-image: url(image/badge_gold.webp); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    height: 150px; 
+    width: 150px; 
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.messi{
+    position: absolute;
+    height: 68px;
+    right: 62px;
+    bottom: 54px;
+}
+.right{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 29px;
+    left: 12px;
+    font-size: 12px;
+    color: rgb(86, 60, 46);
+}
+.nom{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 94px;
+    left: -22px;
+    font-size: 13px;
+    color: rgb(86, 60, 46);
+    width: 100%;
+    text-align: center;
+}
+.statistique{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 109px;
+    left: 13px;
+    font-size: 6px;
+    color: rgb(86, 60, 46);
+    gap: 3px;
+}
+.sta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modif{
+    position: absolute;
+    width: 11%;
+    height: 11%;
+}
+.modif i{
+    position: relative;
+    left: 88px;
+    top: 20px;
+    color: #4bf2b3;
+    cursor: pointer;
+}
+.modif i:hover{
+    color: #000000;
+    transition: color 0.5s ease;
+}
+.supprime{
+    position: relative;
+    left: 90px;
+    top: 40px;
+    color: #4bf2b3;
+    cursor: pointer;
+}
+.supprime i:hover{
+    color: #000000;
+    transition: color 0.5s ease;
+}
+
+@media (max-width: 768px) {
+    body{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        background-color: black !important;;
+    }
+    svg{
+        max-width: 100%;
+        height: auto;
+    }
+    .players-container{
+        margin-left: 21px;
+    }
+        
+    .containte {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .frome {
+        width: 90%;
+        display: none;
+    }
+    .addd{
+        display: block;
+        background-color: #8ef0cb;
+        border: none;
+        color: rgba(87, 87, 87, 0.793);
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px;
+        width:20%;
+        margin-left: 89%;
+    }
+
+    .frome.open{
+        display: block;
+    }
+    .gold{
+        height: 83px;
+        width: 83px;
+        margin-left: 7%;
+    }
+    .player{
+        gap: 1%;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .inpte, .inpt, .optio {
+        font-size: 14px;
+    }
+    .gold{
+        height: 83px;
+        width: 83px;
+        margin-left: 5%;
+    }
+    .gold:hover{
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+        filter: drop-shadow(0 5px 15px rgba(96, 234, 255, 0.3));
+    }
+    .player{
+        gap: 1%;
+    }
+    #pla1{
+        margin-left: 2%;
+    }
+    
+}
+
+
+
+
+
